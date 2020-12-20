@@ -1,0 +1,23 @@
+{
+  "description": "Block in-video ads on facebook",
+  "manifest_version": 2,
+  "name": "facebook-video-adblocker",
+  "version": "1.0",
+  "homepage_url": "https://github.com/abdullah2993/facebook-video-adblocker",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.facebook.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "index.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  }
+}
