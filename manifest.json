@@ -4,7 +4,9 @@
   "name": "facebook-video-adblocker",
   "version": "1.0",
   "homepage_url": "https://github.com/abdullah2993/facebook-video-adblocker",
-
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
   "permissions": [
     "webRequest",
     "webRequestBlocking",

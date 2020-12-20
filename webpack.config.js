@@ -28,7 +28,10 @@ const config = {
   },
   plugins: [
     new CopyPlugin({
-      patterns: [{ from: 'manifest.json' }],
+      patterns: [
+        { from: 'manifest.json' },
+        { from: 'icons', to: 'icons' },
+      ],
     }),
     new WebExtWebpackPlugin({ sourceDir: path.resolve(__dirname, 'extension') }),
   ],
